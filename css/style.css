@@ -216,7 +216,8 @@ input[type=text], input[type=email], input[type=textarea]{
 }
 .copyright{
     display: inline-block;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
+    margin-top: 31px;
     font-size: 10px;
     line-height: 11px;
     text-align: center;
