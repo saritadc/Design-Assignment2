@@ -221,4 +221,5 @@ input[type=text], input[type=email], input[type=textarea]{
     line-height: 11px;
     text-align: center;
     color: #000000; 
+    width: 100%;
 }
