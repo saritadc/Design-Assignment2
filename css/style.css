@@ -170,9 +170,26 @@ input{
 }
 input[type=text], input[type=email]  {
     width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid rgb(226, 223, 223);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(226, 223, 223);
+}
+.footer-nav ul{
+    display: block
+}
+.footer-nav ul a{
+    text-decoration: none;
+    color: #333333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.footer-nav ul a li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding: 20px;
 }
