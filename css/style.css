@@ -73,8 +73,8 @@ nav{
 }
 .bg-container{
     width: 425px;
-    height: 4442px;
-    background: rgba(10, 10, 10, 0.4);
+    min-height: 4000px;
+    background: rgba(138, 136, 136, 0.5);
 }
 .container{
     width: 405px;
@@ -196,20 +196,29 @@ input[type=text], input[type=email], input[type=textarea]{
     border: none;
     border-bottom: 2px solid rgb(226, 223, 223);
 }
-.footer-nav ul{
-    display: block
+.footer-nav{
+    margin-top: 33px;
+    margin-bottom: 31px;
 }
 .footer-nav ul a{
     text-decoration: none;
     color: #333333;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
 }
 .footer-nav ul a li{
     list-style: none;
     float: left;
     text-align: center;
-    padding: 20px;
+    padding-left: 33px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+.copyright{
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: #000000; 
 }
