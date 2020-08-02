@@ -119,11 +119,16 @@
 .feature{
     padding-bottom: 110px;
 }
-.feature-icon{
-    padding-bottom: 31px;
+.feature-name {
+    padding-bottom: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
 }
 .feature-name{
     padding-bottom: 18px;
+
 }
 .team-title{
     margin-top: 100px;
@@ -186,7 +191,6 @@ input[type=text], input[type=email], input[type=textarea]{
 .btn{
     padding: 13px 30px;
     background-color: #9C27B0;
-    margin-top: 24px;
     margin-bottom: 79px;
     box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
     border-radius: 3px;
@@ -194,8 +198,10 @@ input[type=text], input[type=email], input[type=textarea]{
     border: none;
     border-bottom: 2px solid rgb(226, 223, 223);
 }
+footer{
+margin-top: -40px;
+}
 .footer-nav{
-    margin-top: 33px;
     margin-bottom: 31px;
 }
 .footer-nav ul a{
@@ -279,22 +285,54 @@ input[type=text], input[type=email], input[type=textarea]{
     }
     .wrapper{
         padding-left: 150px;
-        padding-right: 155px;
+        padding-right: 75px;
     }
     .right-header{
-        width: 26%;
+        width: 40%;
     }
     .paragraph-padding,.page-title {
-    width: 40%;
-    }
-    .header-content.wrapper {
-    position: absolute;
-    top: 13%;
+    width: 61%;
     }
     .product-info{
-        text-align: center;
+        max-width: 50%;
+        margin: auto;
+    }
+    .feature-container{
+        display: flex;
+        max-width: 67%;
+        margin: auto;
+    }
+    .feature{
+        padding-right: 62px;
+    }
+    .team-container{
+        display: flex;
+        max-width: 67%;
+        margin: auto;
+    }
+    .team-member{
+        padding-right: 38px;
+    }
+    .contact{
+        width: 47%;
+        margin: auto;
+    }
+    input[type=text], input[type=email]{
+        width: 44%;
+        margin-right: 28px;
+    }
+    input[type=textarea]{
+        width: 100%;
+    }
+    input[type=text]{
+        border-bottom: 2px solid #9C27B0;;
+    }
+    input[type=text]::placeholder{
+        color: #9C27B0;
     }
 
+
+    
 }
 
 /* position: absolute;
