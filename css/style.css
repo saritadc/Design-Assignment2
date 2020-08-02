@@ -330,12 +330,4 @@ margin-top: -40px;
     input[type=text]::placeholder{
         color: #9C27B0;
     }
-
-
-    
 }
-
-/* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
