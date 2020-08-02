@@ -8,7 +8,7 @@
 .bg-banner{
     width: 100%;
     background-size: cover;
-    background: url(../img/bgheader.png);
+    background: url(../img/banner_header.png);
     padding-bottom: 74px;
     background-attachment: fixed;
     
@@ -235,6 +235,7 @@ margin-top: -40px;
     .bg-banner{
         width: 100%;
         background-size: cover;
+        background: url(../img/tablet_banner.png);
     }
     .wrapper{
         padding-left: 24px;
