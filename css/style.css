@@ -6,10 +6,13 @@
     font-family: 'Roboto', sans-serif;
 }
 .bg-banner{
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
     background: url(../img/bgheader.png);
     padding-bottom: 74px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    
 }
 .header-logo{
     text-decoration: none;
@@ -19,17 +22,17 @@
 }
 .top-header{
     background: rgba(0, 0, 0, 0.4);
-    padding: 15px 15px 30px 25px;
+    /* padding: 15px 15px 30px 25px; */
     position: relative;
-    height: 10vh;
+    height: 67px;
+    line-height: 67px;
 }
 .left-header{
     float: left;
-    margin-top:5vh
+    
 }
 .right-header{
     float: right;
-    margin-top:5vh;
     margin-right: 36px;
 }
 .font-style{
@@ -85,7 +88,7 @@
     border-radius: 6px;
     position: relative;
     top: -50px;
-    left: 10px;
+    margin: auto;
     
     
 }
@@ -225,6 +228,9 @@ input[type=text], input[type=email], input[type=textarea]{
     color: #000000; 
     width: 100%;
 }
+.nav-menus,.nav-icons{
+    display: none;
+}
 @media(min-width:768px){
     .bg-banner{
         width: 100%;
@@ -254,9 +260,32 @@ input[type=text], input[type=email], input[type=textarea]{
     }
     .download-icon{
         padding-right: 5px;
-        margin-bottom: 0px;
+        margin-top: 5px;
     }
     .nav-download{
         padding-right: 24px;
     }
 }
+
+/* @media(min-width:992px){
+    .top-header{
+        background: none;
+    }
+    .bg-banner{
+        width: 100%;
+        height: 100vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+} */
+
+/* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+background: url(../img/bgheader.png);
+    padding-bottom: 74px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
