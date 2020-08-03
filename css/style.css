@@ -235,6 +235,7 @@ margin-top: -40px;
   clear: both;
   display: table;
 }
+
 @media(min-width:768px){
     .bg-banner{
         width: 100%;
@@ -340,5 +341,17 @@ margin-top: -40px;
     input[type=text]:focus::placeholder{
         color: #9C27B0;
     }
+    .footer-nav{
+        float: left;
+    }
+    .copyright{
+        float: right;
+        width: auto;
+        margin-top: 0px;
+    }
+    .footer-content{
+    max-width: 1122px;
+    margin: 0 auto;
+    margin-top: 32px;
 
 }
