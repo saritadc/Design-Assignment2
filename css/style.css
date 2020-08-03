@@ -204,11 +204,11 @@ margin-top: -40px;
 .footer-nav{
     margin-bottom: 31px;
 }
-.footer-nav ul a{
+.footer-nav ul li a{
     text-decoration: none;
     color: #333333;
 }
-.footer-nav ul a li{
+.footer-nav ul li{
     list-style: none;
     float: left;
     text-align: center;
@@ -230,6 +230,11 @@ margin-top: -40px;
 .nav-menus,.nav-icons{
     display: none;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 @media(min-width:768px){
     .bg-banner{
         width: 100%;
@@ -246,16 +251,18 @@ margin-top: -40px;
         width: 50%;
     }
     
-    .nav-menus ul a li,.nav-icons ul a li{
-        text-decoration: none;
+    .nav-icons ul li,.nav-menus ul li{
         float: left;
+        list-style: none;
+    }
+    .nav-icons ul li a,.nav-menus ul li a{
+        text-decoration: none;
         color: white;
         font-weight: normal;
         font-size: 12px;
-        list-style: none;
     }
-    .nav-icons ul a li{
-        padding-right: 24px;
+    .nav-icons ul li{
+       padding-right: 24px; 
     }
     .nav-components {
         padding-right: 30px;
