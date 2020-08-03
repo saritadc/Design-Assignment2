@@ -71,7 +71,8 @@
 }
 .iconplay{
     margin-right: 8px;
-    margin-top: 5px;
+    margin-top: -5px;
+    vertical-align: middle;
 }
 .bg-container{
     width: 100%;
