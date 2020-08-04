@@ -209,7 +209,7 @@ ul{
 input{
     width: 100%;
 }
-input[type=text], input[type=email], input[type=textarea]{
+input[type=text], input[type=email], .textarea/*input[type=textarea]*/{
     width: 100%;  
     width: 100%;
     padding: 12px 20px 12px 0px;
@@ -219,7 +219,7 @@ input[type=text], input[type=email], input[type=textarea]{
     border-bottom: 2px solid rgb(226, 223, 223);
     text-align: left;
 }
- input[type=textarea]{
+ /* input[type=textarea]*/.textarea{
      padding:51px 20px 62px 0px ;
  }
 .contact-info {
@@ -334,7 +334,8 @@ margin-top: -40px;
 
 @media(min-width:1200px){
     .top-header{
-        background: none;
+        background: transparent;
+        position: absolute;
     }
     .bg-banner{
         width: 100%;
@@ -348,12 +349,6 @@ margin-top: -40px;
         margin: 0 auto;
         max-width: 1128px;
     }
-    /* .right-header{
-        width: 40%;
-    } */
-    /* .paragraph-padding,.page-title {
-    width: 61%;
-    } */
     .page-title {
     padding: 146px 63px 9px 0px;
 }
@@ -385,7 +380,7 @@ margin-top: -40px;
         width: 44%;
         margin-right: 28px;
     }
-    input[type=textarea]{
+  .textarea{
         width: 100%;
     }
     input[type=text]:focus{
